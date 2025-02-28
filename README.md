@@ -1,58 +1,51 @@
-# Task-Management-System-Laravel
-# Laravel | Complete Task Management System
+Task Management System - Laravel ✅
+This is my Task Management System, a simple and efficient app for managing tasks, built with Laravel. It allows users to create, update, and track tasks seamlessly.
 
+🚀 Getting Started
+📥 Clone the Repository
+If using SSH:
 
-A simple task management app
+bash
+Copier
+Modifier
+git clone git@github.com:isamch/Task-Management-System-Laravel.git
+If using HTTPS:
 
-## Getting Started
-
-Clone the project repository by running the command below if you use SSH
-
-```bash
-git clone git@github.com:codeaamirkalimi/Task-Management-System-Laravel.git
-```
-
-If you use https, use this instead
-
-```bash
-git clone https://github.com/codeaamirkalimi/Task-Management-System-Laravel.git
-```
-
+bash
+Copier
+Modifier
+git clone https://github.com/isamch/Task-Management-System-Laravel.git
+🔧 Installation
 After cloning, run:
 
-```bash
+bash
+Copier
+Modifier
 composer install
-```
-
-```bash
 npm install
-```
+Duplicate .env.example and rename it to .env, then run:
 
-Duplicate `.env.example` and rename it `.env`
-
-Then run:
-
-```bash
+bash
+Copier
+Modifier
 php artisan key:generate
-```
+⚙️ Database Configuration
+Update your .env file with your database credentials, then run:
 
-### Prerequisites
-
-Be sure to fill in your database details in your `.env` file before running the migrations:
-
-```bash
+bash
+Copier
+Modifier
 php artisan migrate
-```
+▶️ Run the Application
+Start the development server using:
 
-And finally, start the application:
-
-```bash
+bash
+Copier
+Modifier
 php artisan serve
-```
+Then visit http://localhost:8000 to see the app in action.
 
-and visit [http://localhost:8000](http://localhost:8000) to see the application in action.
+🛠 Built With
+✅ Laravel – The PHP framework for web artisans.
+✅ React – A JavaScript library for building user interfaces.
 
-## Built With
-
-* [Laravel](https://laravel.com) - The PHP Framework For Web Artisans
-* [React](https://reactjs.org) - A JavaScript library for building user interfaces
